@@ -66,14 +66,20 @@ hr.monarchorange {
 }
 
 .header {
-  margin: 0px;
+  margin-top: -16px;
   padding: 15px;
   background-color: #69c7e6;
+  float: left;
+  width: 100%;
 }
 
 h1.header {
   color: #062934;
   padding: 15px;
+}
+
+.banner {
+ float: left;
 }
 
 .ul {
@@ -85,7 +91,7 @@ h1.header {
   background-color: #e19200;
 	margin: 0;
   float: right;
-  margin-right: -15px;
+  margin-right: 5px;
 }
 
 .topnav li {

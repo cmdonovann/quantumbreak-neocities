@@ -79,7 +79,7 @@ h1.header {
 }
 
 .banner {
- float: left;
+ width: 100%;
 }
 
 .ul {
@@ -106,6 +106,7 @@ h1.header {
 .tabnav {
 	margin: 0;
 	margin-left: -45px;
+  clear: both;
 }
 
 .tabnav li {

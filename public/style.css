@@ -1,0 +1,127 @@
+body {
+  background-color: #062934;
+  color: #ffefc6;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+ /* unvisited link */
+a:link {
+  color: #f0ab00;
+}
+
+/* visited link */
+a:visited {
+  color: #e19200;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffb600;
+}
+
+/* selected link */
+a:active {
+  color: #ffa500;
+} 
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr.monarchyellow {
+  border-top: 1px solid #f0ab00;
+}
+
+hr.monarchorange {
+  border-top: 1px solid #e19200;
+}
+
+.small {
+  font-size: 0.75em;
+  opacity: 0.5;
+}
+
+/* mobile version */
+.divider {
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  /* desktop verson*/
+.divider {
+  width: 50%;
+  }
+}
+
+.header {
+  width: 100%;
+  background-color: #1e86a8;
+  color: #062934;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.contents {
+  float: left;
+  margin: 3%;
+  padding: 2%;
+}
+
+/* this is the css to make it work on mobile */
+.navigation {
+  float: left;
+  width: 92%;
+  margin: 5% auto;
+  padding: 3%;
+  background-color: #1e86a8;
+  color: #062934;
+}
+
+@media only screen and (min-width: 700px) {
+  /* this is the css to make it work on desktop*/
+.navigation {
+  float: right;
+  margin: 3%;
+  padding: 2%;
+  background-color: #1e86a8;
+  color: #062934;
+  width: 20%;
+  }
+}
+
+ /* unvisited link */
+.navigation a:link {
+  color: #f0ab00;
+}
+
+/* visited link */
+.navigation a:visited {
+  color: #e19200;
+}
+
+/* mouse over link */
+.navigation a:hover {
+  color: #ffb600;
+}
+
+/* selected link */
+.navigation a:active {
+  color: #ffa500;
+} 
+
+.navigation ul {
+  list-style-image: url('/gifs/15x15-monarch-logo.png');
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+}

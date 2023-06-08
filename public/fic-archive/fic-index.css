@@ -1,0 +1,177 @@
+body {
+  background-color: #d8eaf0;
+  color: #062934;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+ /* unvisited link */
+a:link {
+  color: #0c98c6;
+}
+
+/* visited link */
+a:visited {
+  color: #1e86a8;
+}
+
+/* mouse over link */
+a:hover {
+  color: #31a9d0;
+}
+
+/* selected link */
+a:active {
+  color: #ffa500;
+} 
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr.monarchyellow {
+  border-top: 1px solid #f0ab00;
+}
+
+hr.monarchorange {
+  border-top: 1px solid #e19200;
+}
+
+.small {
+  font-size: 0.75em;
+  opacity: 0.5;
+}
+
+/* mobile version */
+.divider {
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  /* desktop verson*/
+.divider {
+  width: 50%;
+  }
+}
+
+.header {
+  margin: 0px;
+  padding: 15px;
+  background-color: #69c7e6;
+}
+
+h1.header {
+  color: #062934;
+  padding: 15px;
+}
+
+.ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.topnav {
+  background-color: #e19200;
+	margin: 0;
+  float: right;
+  margin-right: -15px;
+}
+
+.topnav li {
+  font-size: 1.25em;
+  text-align: center;
+  list-style-type: none;
+  padding: 15px;
+  float: right;
+  border-right: 1px solid #0c98c6;
+}
+
+.tabnav {
+	margin: 0;
+	margin-left: -45px;
+}
+
+.tabnav li {
+  background-color: #8fdbf4;
+  font-size: 1.025em;
+  color: #0a3847;
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  padding: 15px;
+  border-right: 1px solid #0c98c6;
+  border-top: 1px solid #0c98c6;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+}
+
+.page {
+  background-color: #8fdbf4;
+  margin: 0;
+  padding: 2%;
+  clear: both;
+}
+
+/* this is the css to make it work on mobile */
+.aside {
+  float: left;
+  width: 92%;
+  margin: 5% auto;
+  padding: 3%;
+  background-color: #d4f4ff;
+  color: #0b617d;
+}
+
+@media only screen and (min-width: 700px) {
+  /* this is the css to make it work on desktop*/
+.aside {
+  float: right;
+  margin: 3%;
+  padding: 2%;
+  background-color: #d4f4ff;
+  color:#0b617d;
+  width: 20%;
+  }
+}
+
+.footer {
+  float: left;
+  width: 100%;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+li.inactive {
+  background-color: #53b9db;
+  color: #1e5263;
+}
+
+.inactive:hover {
+  background-color: #3cbee9;
+}
+
+.inactive:active {
+  background-color: #27c9ff;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}

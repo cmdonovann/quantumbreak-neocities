@@ -31,6 +31,10 @@ a:active {
   text-align: center;
 }
 
+.banner {
+  width: 100%;
+}
+
 hr.monarchyellow {
   border-top: 1px solid #f0ab00;
 }
@@ -123,5 +127,5 @@ hr.monarchorange {
 
 .footer {
   float: left;
-  width: 100%;
+  width: 98%;
 }

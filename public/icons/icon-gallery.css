@@ -1,0 +1,100 @@
+body {
+    color: #fff2cc;
+    background-color: #008080;
+    font-family: monospace;
+  }
+
+  .contents {
+    background-color: #fff2cc;
+    color: #003333;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .banner {
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .icon {
+    float: left;
+    width: 100px;
+    clear: right;
+    margin: 2px;
+    padding: 10px;
+  }
+
+  .imgbreak {
+    clear: left;
+  }
+
+  .footer {
+    clear: left;
+    width: 98%;
+  }
+
+  .center {
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .banner {
+      width: 100%;
+  }
+
+  hr.monarchyellow {
+      border-top: 1px solid #f0ab00;
+  }
+
+  hr.monarchorange {
+      border-top: 1px solid #e19200;
+  }
+
+  .small {
+      font-size: 0.75em;
+      opacity: 0.5;
+  }
+
+/* unvisited link */
+a:link {
+color: #008080;
+}
+
+/* visited link */
+a:visited {
+color: #006666;
+}
+
+/* mouse over link */
+a:hover {
+color: #e19200;
+}
+
+/* selected link */
+a:active {
+color: #f0ab00;
+} 
+
+
+
+/* footer links */
+
+/* unvisited link */
+.footer a:link {
+color: #f0ab00;
+}
+
+/* visited link */
+.footer a:visited {
+color: #e19200;
+}
+
+/* mouse over link */
+.footer a:hover {
+color: #ffb600;
+}
+
+/* selected link */
+.footer a:active {
+color: #ffa500;
+} 
